@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleFinanceiro.Data\ControleFinanceiro.Data.csproj" />
+    <ProjectReference Include="..\ControleFinanceiro.Infra.CrossCutting.Bus\ControleFinanceiro.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\src\ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
