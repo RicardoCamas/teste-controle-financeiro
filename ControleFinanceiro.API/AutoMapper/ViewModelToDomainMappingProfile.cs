@@ -12,7 +12,11 @@ namespace ControleFinanceiro.API.AutoMapper
     {
         public ViewModelToDomainMappingProfile()
         {
+<<<<<<< HEAD
              CreateMap<LancamentoBaseCommand, Lancamento>();
+=======
+            CreateMap<LancamentoBaseCommand, Lancamento>();
+>>>>>>> ae866c0fa2e23405e78bb19070e6c587c1abbc36
         }
     }
 }
