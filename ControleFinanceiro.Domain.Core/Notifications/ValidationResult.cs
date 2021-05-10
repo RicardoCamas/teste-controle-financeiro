@@ -8,7 +8,7 @@ namespace ControleFinanceiro.Domain.Core.Notifications
 {
     public class ValidationResult
     {
-        public ValidationResult() { }
+         public ValidationResult() { }
 
         public string Message { get; set; }
         public HttpStatusCode StatusCode { get; set; }
